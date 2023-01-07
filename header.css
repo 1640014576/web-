@@ -1,0 +1,13 @@
+.header{
+	width: 99%;
+	margin: 0 auto 30px;
+	padding: 3px;
+	background-color: orange;
+	text-align: center;
+	border-radius: 5px;
+}
+.header p{
+	font-size: 18px;
+	font-weight: bolder;
+	color: white;
+}

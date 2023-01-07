@@ -1,0 +1,110 @@
+body{
+    background-color: #eee;
+}
+
+.container{
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    color: rgb(64, 64, 64);
+    box-shadow: 4px 10px 3px #999;
+    padding-bottom: 30px;
+}
+.head{
+    width: 100%;
+    padding: 20px;
+    font-size: 16px;
+}
+.head p{
+    text-align: center;
+    margin: 0;
+}
+#return{
+    display: inline-block;
+    margin: 0;
+    text-align: left;
+}
+#return:hover{
+    cursor: pointer;
+}
+#title{
+    display: inline-block;
+    width: 90%;
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.line {
+    margin-top: 10px;
+    width: 96%;
+    height: 1px;
+    border-top: solid #999 1px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    color: #999;
+    border: solid #999 2px;
+    padding: 20px;
+    margin: 20px auto;
+    font-weight: bold;
+}
+#title{
+    color: rgb(64, 64, 64);
+    font-size: 16px;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 40%;
+}
+
+#Econtainer-1{
+    width: 90%;
+    height: 80%; 
+}
+#Econtainer-2{
+    width: 90%;
+    height: 80%; 
+}
+#Econtainer-3{
+    width: 90%;
+    height: 80%; 
+}
+#Econtainer-4{
+    width: 90%;
+    height: 80%; 
+}
+
+.buttom{
+    width: 10%;
+    margin: 0 auto;
+}
+
+.return-btn{
+	margin: 10px;
+	display: inline-block;
+	padding: 5px 10px;
+	font-size: 8px;
+	cursor: pointer;
+	text-align: center;   
+	text-decoration: none;
+	outline: none;
+	color: black;
+	background-color: white;
+	border:1px solid rgb(88, 88, 88);
+	border-radius: 5px;
+}
+.return-btn:hover {
+	background-color: orange;
+	color: white;
+}
+.return-btn:active {
+	background-color: orange;
+	color: white;
+}

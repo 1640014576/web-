@@ -1,0 +1,63 @@
+.coverBox{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 46, 46, 0.473)
+}
+.confirmBox{
+    position: relative;
+    padding-bottom: 15px;
+    width: 30%;
+    text-align: center;
+    margin: 10% auto;
+    background-color: white;
+    border-radius: 10px;
+}
+.confirm-body{
+    margin: 30px;
+}
+#tip{
+    width: 75%;
+    display: inline-block;
+    text-align: left;
+}
+#close{
+    width: 15%;
+    display: inline-block;
+    text-align: right;
+}
+#close:hover{
+    cursor: pointer;
+    color: orange;
+}
+.confirmBox .head{
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+    background-color: #eee;
+}
+
+.delete-btn{
+	margin: 10px;
+	display: inline-block;
+	padding: 5px 5px;
+	font-size: 8px;
+	cursor: pointer;
+	text-align: center;   
+	text-decoration: none;
+	outline: none;
+	color: black;
+	background-color: white;
+	border:1px solid rgb(88, 88, 88);
+	border-radius: 5px;
+}
+.delete-btn:hover {
+	background-color: orange;
+	color: white;
+}
+.delete-btn:active {
+	background-color: orange;
+	color: white;
+}
