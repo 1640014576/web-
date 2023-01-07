@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>在线调查问卷网站</title>
+    <link rel="stylesheet" type="text/css" href="../style/list.css">
+    <link rel="stylesheet" type="text/css" href="../style/delete.css">
+    <link rel="stylesheet" type="text/css" href="../style/header.css">
+</head>
+<body>
+    <div class="header"><p>问卷管理</p></div>
+    <table class="table-list" id="list">
+        <tr>
+            <th></th>
+            <th>标题</th>
+            <th>截止时间</th>
+            <th>状态</th>
+            <th>操作<p id="table-p" onclick="skip(111)">+ 新建问卷</p></th>
+        </tr>
+
+        <tr class="table-body">
+            <td class="td1"><input type="checkbox" name="sel" onclick="sel()"/></td>
+            <td class="td2">第一个调查问卷</td>
+            <td class="td3">2025-1-1</td>
+            <td class="td3"><p id="upload-p">发布中</p></td>
+            <td class="td5">
+                <input class="table-btn" type="button" onclick="skip(444)" value="填写问卷">
+                <input class="table-btn" type="button" onclick="skip(222)" value="查看数据">
+                <input id="deleteBtn" class="table-btn" type="button" onclick="getDelete(this)" value="删除问卷">
+            </td>
+        </tr>
+        <tr class="table-body">
+            <td class="td1"><input type="checkbox" name="sel" onclick="sel()"/></td>
+            <td class="td2">第二个调查问卷</td>
+            <td class="td3">2025-1-1</td>
+            <td class="td3"><p>未发布</p></td>
+            <td class="td5">
+                <input class="table-btn" type="button" onclick="skip(333)" value="编辑问卷">
+                <input id="deleteBtn" class="table-btn" type="button" onclick="getDelete(this)" value="删除问卷">
+            </td>
+        </tr>
+        <tr class="table-body">
+            <td class="td1"><input type="checkbox" name="sel" onclick="sel()"/></td>
+            <td class="td2">第三个调查问卷</td>
+            <td class="td3">2016-1-1</td>
+            <td class="td3"><p id="end-p">已结束</p></td>
+            <td class="td5">
+                <input class="table-btn" type="button" onclick="skip(222)" value="查看数据">
+                <input id="deleteBtn" class="table-btn" type="button" onclick="getDelete(this)" value="删除问卷">
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="td1"><input type="checkbox" name="selAll" onclick="selAll()" /></td>
+            <td class="td2" colspan="5">
+                全选<input id="deleteBtn" class="delete-btn" type="button" onclick="getDelete(this)" value="全部删除">
+            </td>
+        </tr>
+    </table>
+
+    <div class="coverBox">
+        <div class="confirmBox">
+            <div class="head"><p id="tip">提示</p><p id="close">X</p></div>
+            <div class="confirm-body"><p>确认要删除此问卷？</p></div>
+            <input id="yes" class="delete-btn" type="button" onclick="yesDelete()" value="确定">
+            <input id="cancel" class="delete-btn" type="button" value="取消">
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../js/list.js"></script>
+    <script type="text/javascript" src="../js/delete.js"></script>
+</body>
+</html>

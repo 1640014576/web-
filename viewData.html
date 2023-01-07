@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>在线调查问卷网站-查看数据</title>
+    <link rel="stylesheet" type="text/css" href="../style/header.css">
+    <link rel="stylesheet" type="text/css" href="../style/viewData.css">
+    <script type="text/javascript" src="../js/echarts.min.js"></script>
+</head>
+<body>
+    <div class="header"><p>问卷管理</p></div>
+
+    <div class="container">
+        <div class="head">
+            <p id="return" onclick="location.href=('list.html')"><&nbsp;返回</p><p id="title">这里是标题</p>
+            <p>此统计分析只包含回收的数据</p>
+            <div class="line"></div>
+        </div>
+
+        <div class="box">
+            <div class="left">
+                <p id="title">Q1&nbsp;单选题</p>
+                <p>选项一</p>
+                <p>选项二</p>
+            </div>
+            <div class="right">
+                <p id="title">数据占比</p>
+                <div id="Econtainer-1"></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="left">
+                <p id="title">Q2&nbsp;多选题</p>
+                <p>选项一</p>
+                <p>选项二</p>
+                <p>选项三</p>
+                <p>选项四</p>
+            </div>
+            <div class="right">
+                <p id="title">数据占比</p>
+                <div id="Econtainer-2"></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="left">
+                <p id="title">Q3&nbsp;单选题</p>
+                <p>选项一</p>
+                <p>选项二</p>
+            </div>
+            <div class="right">
+                <p id="title">数据占比</p>
+                <div id="Econtainer-3"></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="left">
+                <p id="title">Q4&nbsp;文本题</p>
+            </div>
+            <div class="right">
+                <p id="title">有效回答占比</p>
+                <div id="Econtainer-4"></div>
+            </div>
+        </div>
+
+        <div class="buttom">
+            <input class="return-btn" type="button" onclick="location.href=('list.html')" value="返回">
+        </div>
+        
+    </div>
+
+    <script type="text/javascript" src="../js/viewData.js"></script>
+</body>
+</html>
